@@ -1,5 +1,3 @@
-
-
 #Todo List Application: Develop a simple command-line or graphical interface application
 #that allows users to create, manage, and track their to-do lists.
 
