@@ -1,3 +1,5 @@
+
+
 #Todo List Application: Develop a simple command-line or graphical interface application
 #that allows users to create, manage, and track their to-do lists.
 
@@ -38,6 +40,15 @@ def show_options():
             choice = messagebox.askyesno("Select Option", f"Select '{option}' for '{item}'?")
             if choice:
                 selected_options.append(option)
+        #if loops for response to label 
+        if "Important" in selected_options:
+            print("not complete")#
+        if "Set Time" in selected_options:
+            print("not complete")#
+        if "Work" in selected_options:
+            print("not complete")#
+        if "Personal" in selected_options:
+            print("not complete")#
         if selected_options:
             print(f"{item}: {', '.join(selected_options)}")
 
